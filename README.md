@@ -1,76 +1,70 @@
-Studio Bloom — CSS Challenge
+# Studio Bloom — CSS Challenge
 
-Studio Bloom is a responsive creative studio page built for the WeIntern Week 1 CSS Challenge. It demonstrates Flexbox, CSS Grid, and subtle CSS transitions in a cohesive website design.
+A responsive creative studio page built for the WeIntern Week 1 CSS Challenge. The page uses a fictional branding studio to demonstrate Flexbox, CSS Grid, and subtle CSS transitions in a finished interface.
 
-CSS challenges
+## Live site
 
-Flexbox: Three client testimonial cards appear side by side on desktop and stack on mobile.
+Deployment link: _Add your Vercel URL here after deployment._
 
-CSS Grid: Six branded project cards rearrange from three columns on desktop to two on tablet and one on mobile.
+## What the project demonstrates
 
-Animation: The primary button, testimonial cards, and project cards use subtle hover transitions. Reduced-motion preferences are respected.
+| Challenge | Implementation |
+| --- | --- |
+| Flexbox | Three testimonial cards sit in one row on desktop and stack vertically on small screens. |
+| CSS Grid | Six project cards display in three columns on desktop, two on tablet, and one on mobile. |
+| Animation | The primary button and cards use smooth hover transitions and transforms. |
 
-Tech stack
+## Features
 
-HTML5 and CSS3.
+- Responsive layout for desktop, tablet, and mobile
+- Six branded project images
+- Semantic HTML sections and descriptive image alt text
+- Visible keyboard focus styles
+- Reduced-motion support for visitors who prefer less animation
+- Smooth in-page navigation
 
-Run locally
+## Built with
 
-Open index.html in a browser, or serve the project folder with a local development server.
+HTML5 and CSS3. No JavaScript, dependencies, or build step are required.
 
-Project structure
+## Run locally
 
+Clone the repository and open `index.html` in a browser:
+
+```bash
+git clone https://github.com/Shwetaleena-Kundu/studio-bloom-css-challenge.git
+cd studio-bloom-css-challenge
+```
+
+## Project structure
+
+```text
 studio-bloom-css-challenge/
 ├── index.html
 ├── css/
 │   └── style.css
 ├── assets/
 │   └── images/
-│       ├── studio-bloom-reference.png
-│       ├── luma.png
-│       ├── folk.png
-│       ├── rue.png
-│       ├── paper-kind.png
-│       ├── nova.png
-│       └── willow.png
 ├── screenshots/
-│   ├── flex-desktop.png
-│   ├── flex-mobile.png
-│   ├── grid-layout.png
-│   └── animation-demo.png
 └── README.md
+```
 
-Screenshots
+## Screenshots
 
-View
+### Flexbox — desktop
 
-File
+![Three testimonial cards displayed side by side](screenshots/flex-desktop.png)
 
-Three-card Flexbox row on desktop
+### Flexbox — mobile
 
-screenshots/flex-desktop.png
+![Testimonial cards stacked vertically on mobile](screenshots/flex-mobile.png)
 
-Stacked Flexbox cards on mobile
+### CSS Grid
 
-screenshots/flex-mobile.png
+![Selected work displayed in a responsive project grid](screenshots/grid-layout.png)
 
-Six-card CSS Grid
+The hover animation can be viewed by moving the pointer over the **Explore our work** button or the cards on the live site.
 
-screenshots/grid-layout.png
-
-Button or card hover state
-
-screenshots/animation-demo.png
-
-Accessibility and responsive details
-
-The page uses semantic sections, descriptive image text, visible keyboard focus states, scalable images, and a reduced-motion media query. Layout changes at 900px and 650px, with an additional adjustment for narrow screens.
-
-Links
-
-Add your GitHub repository and live deployment URLs here after publishing.
-
-Author
+## Author
 
 Shwetaleena Kundu
-
