@@ -4,7 +4,7 @@ A responsive creative studio page built for the WeIntern Week 1 CSS Challenge. T
 
 ## Live site
 
-Deployment link: _Add your Vercel URL here after deployment._
+Deployment link:(https://studio-bloom-css-challenge.vercel.app/)
 
 ## What the project demonstrates
 
