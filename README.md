@@ -4,7 +4,7 @@ A responsive creative studio page built for the WeIntern Week 1 CSS Challenge. T
 
 ## Live site
 
-Deployment link:(https://studio-bloom-css-challenge.vercel.app/)
+[View the live CSS challenge](https://studio-bloom-css-challenge.vercel.app/)
 
 ## What the project demonstrates
 
@@ -62,6 +62,10 @@ studio-bloom-css-challenge/
 ### CSS Grid
 
 ![Selected work displayed in a responsive project grid](screenshots/grid-layout.png)
+
+### Button hover animation
+
+![Explore our work button in its hover state](screenshots/animation-demo.jpg)
 
 The hover animation can be viewed by moving the pointer over the **Explore our work** button or the cards on the live site.
 
